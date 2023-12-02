@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-bg" style="background-image: url('./images/opti/main-bg.avif');">
+        <header class="header" style="background-image: url('./images/opti/header-bg.avif');">
+            <div class="container">
+                <div class="header__nav">
+                    <a class="logo text-fade-in" href="#!">
+                        <picture>
+                            <source srcset="./images/opti/logo.avif" type="image/avif">
+                            <source srcset="./images/opti/logo.webp" type="image/webp">
+                            <img class="logo__img" src="./images/logo.png" loading="lazy" alt="">
+                        </picture>
+                        <p class="logo__name">
+                            Завод архитектурной керамики
+                        </p>
+                    </a>
+                    <button class="menu__btn">
+                        <span class="btn__line"></span>
+                        <span class="btn__line"></span>
+                        <span class="btn__line"></span>
+                        <span class="btn__line"></span>
+                    </button>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link"
+                                    href="https://yandex.ru/maps/10716/balashiha/house/promyshlennaya_ulitsa_37as4/Z0EYdgZoS0MBQFtvfXtzcHhkbA==/?ll=38.018266%2C55.721478&z=17">
+                                    <p>
+                                        Центральный офис:
+                                        <br>
+                                        <span>
+                                            МО, г. Балашиха, мкр. Саввино,
+                                            <br>
+                                            ул. Промышленная, владение 37а, стр.4
+                                        </span>
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="mailto:info@lceramics.ru">
+                                    info@lceramics.ru
+                                </a>
+                                <p class="menu__link-text">
+                                    Направьте проект на расчет
+                                </p>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="tel:+79299013322">
+                                    +7 (929) 901-33-22
+                                </a>
+                                <p class="menu__link-text">
+                                    телефон для заказчиков
+                                </p>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="tel:+74959816404">
+                                    +7 (495) 981-64-04
+                                </a>
+                                <p class="menu__link-text">
+                                    городской телефон
+                                </p>
+                            </li>
+
+                        </ul>
+                        <a class="btn__pop animate__animated wow animate__bounce" href="#" id="btn">
+                            <span>
+                                Заказать звонок
+                            </span>
+                        </a>
+                        <div class="pop" style="display: none; width: 500px;" id="hidden">
+                            <form class="pop__form" id="form" action="#">
+                                <h2 class="pop__title">Оставьте свои данные и мы вам перезвоним</h2>
+                                <input class="pop__input validate" data-rules="required" name="name" placeholder="Ваше имя" type="text">
+                                <input class="pop__input validate" data-rules="required" name="tel" placeholder="Ваш телефон*" type="tel">
+                                <button class="pop__btn" type="submit">
+                                    Получить предложение
+                                </button>
+                                <div class="pop__approve">
+                                    <img class="pop__approve-img" loading="lazy" src="./images/approve.svg" alt="">
+                                    <p class="pop__approve-text">
+                                        Подтверждаю свои данные и даю своё согласие на их обработку
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+                <div class="header__content">
+                    <h1 class="header__title ">
+                        Индивидуальное изготовление
+                        <span class="animate__animated wow animate__fadeInLeft" data-wow-duration=".2s">
+                            архитектурной
+                            керамики
+                        </span>
+                        <p class="animate__animated wow animate__fadeInLeft" data-wow-duration=".5s">
+                            для облицовки фасадов, декорирования экстерьеров и интерьеров
+                        </p>
+                    </h1>
+                    <p class="header__content-text animate__animated wow animate__fadeInLeft" data-wow-duration=".7s">
+                        400* циклов долговечность фасадной керамики Luxury Ceramics
+                    </p>
+                    <div class="header__content-link">
+                        <a class="header__content-button animate__animated wow animate__shakeX" href="#!">
+                            <span>
+                                Смотреть каталог
+                            </span>
+                        </a>
+                        <div class="header__content-info">
+                            <img src="./images/info.svg" alt="" loading="lazy">
+                            <div class="header__content-info--block">
+                                Подтверждено <a href="#!">испытаниями  на морозостойкость</a>
+                                от ГУП “НИИМосстрой”
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__born animate__animated wow animate__fadeInRight">
+                <img src="./images/info.svg" alt="" loading="lazy">
+                <p class="header__born-text">
+                    Объект выполнен
+                    в 2015 году
+                </p>
+            </div>
+        </header>
+        <section class="cards">
+            <div class="container">
+                <div class="cards__box">
+                    <div class="cards__item animate__animated wow animate__fadeInUp" data-wow-duration=".9s"
+                        style="background-image: url('./images/cards.svg');">
+                        <div class="cards__item-wrapper">
+                            <picture>
+                                <source srcset="./images/opti/item-1.avif" type="image/avif">
+                                <source srcset="./images/opti/item-1.webp" type="image/webp">
+                                <img class="cards__item-img" loading="lazy" src="./images/item-1.png" alt="">
+                            </picture>
+                            <p class="cards__item-text">
+                                Изготовление эксклюзивных деталей вручную, и стандартных позиций на станках
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cards__item animate__animated wow animate__fadeInLeft" data-wow-duration=".5s"
+                        style="background-image: url('./images/cards.svg');">
+                        <div class="cards__item-wrapper">
+                            <picture>
+                                <source srcset="./images/opti/item-2.avif" type="image/avif">
+                                <source srcset="./images/opti/item-2.webp" type="image/webp">
+                                <img class="cards__item-img" loading="lazy" src="./images/item-2.png" alt="">
+                            </picture>
+                            <p class="cards__item-text">
+                                Разработка деталировочных чертежей облицовки фасада из керамики
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cards__item animate__animated wow animate__fadeInRight" data-wow-duration=".5s"
+                        style="background-image: url('./images/cards.svg');">
+                        <div class="cards__item-wrapper">
+                            <picture>
+                                <source srcset="./images/opti/item-3.avif" type="image/avif">
+                                <source srcset="./images/opti/item-3.webp" type="image/webp">
+                                <img class="cards__item-img" loading="lazy" src="./images/item-3.png" alt="">
+                            </picture>
+                            <p class="cards__item-text">
+                                Гибкая ценовая политика </p>
+                        </div>
+                    </div>
+                    <div class="cards__item animate__animated wow animate__fadeInUp" data-wow-duration=".9s"
+                        style="background-image: url('./images/cards.svg');">
+                        <div class="cards__item-wrapper">
+                            <picture>
+                                <source srcset="./images/opti/item-4.avif" type="image/avif">
+                                <source srcset="./images/opti/item-4.webp" type="image/webp">
+                                <img class="cards__item-img" loading="lazy" src="./images/item-4.png" alt="">
+                            </picture>
+                            <p class="cards__item-text">
+                                Монтаж архитектурной керамики на объекте с неукоснительным соблюдением технологий </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="gallery">
+        <div class="container">
+            <svg class="gallery--decor" xmlns="http://www.w3.org/2000/svg" width="1920" height="310"
+                viewBox="0 0 1920 310" fill="none">
+                <path
+                    d="M1969.42 0.387675C1930.75 56.6602 1615.15 439.671 1036.04 262.14C456.936 84.6095 -63.0001 290.732 -63.0001 290.732"
+                    stroke="#CCCCCC" />
+            </svg>
+            <div class="gallery__content">
+
+                <div class="gallery__text">
+                    <h4 class="gallery__title animate__animated wow animate__fadeInLeft" data-wow-duration="2s">
+                        Галерея объектов
+                        с применением архитектурной керамики Luxury Ceramics
+                    </h4>
+                </div>
+                <div class="gallery__wrapper">
+                    <div class="gallery__slider">
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-1.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-2.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-3.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-1.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-2.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-3.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-1.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-2.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-3.avif" alt="">
+                        </div>
+                        <div class="gallery__slider-item">
+                            <img class="gallery__slider-img" loading="lazy" src="./images/opti/slide-2.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="slider__num">
+                        <p class="slider__num-current">1</p>
+                        <span class="slider__num-total">
+                            1
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.min.js"></script>
+    
+
+</body>
+
+</html>
