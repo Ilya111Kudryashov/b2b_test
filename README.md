@@ -2,7 +2,7 @@
 
 [test page](https://ilya111kudryashov.github.io/test_b2b/)
 
-![image](https://github.com/Ilya111Kudryashov/test_b2b/assets/44931669/69186f4b-30b0-4529-8b34-05af141bd5a6)
+![image](![image](https://github.com/Ilya111Kudryashov/b2b_test/assets/44931669/eb62ef73-f93f-4b5b-8796-cd440e0a1361))
 
 1)сделал верстку в соответствии с макетом и реализовал адаптацию вплоть до 360рх
 
