@@ -1,6 +1,6 @@
 # b2b_test
 
-[test page](https://ilya111kudryashov.github.io/test_b2b/)
+[test page](https://ilya111kudryashov.github.io/b2b_test/)
 
 ![image](https://github.com/Ilya111Kudryashov/b2b_test/assets/44931669/eb62ef73-f93f-4b5b-8796-cd440e0a1361)
 
